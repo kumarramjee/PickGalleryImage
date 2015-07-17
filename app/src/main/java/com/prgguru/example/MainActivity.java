@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 		// Start the Intent
 		startActivityForResult(galleryIntent, RESULT_LOAD_IMG);
 	}
-
+//
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
